@@ -4,7 +4,7 @@
 
 ## 1. 🎓 Introduction
 
-### Objectif global 
+### Objectif global
 
 L'objectif de ce module est d'apprendre à utiliser CSS pour mettre en
 forme des pages HTML. Vous allez découvrir comment appliquer des
