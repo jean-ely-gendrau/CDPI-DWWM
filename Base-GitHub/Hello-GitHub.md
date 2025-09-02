@@ -117,7 +117,7 @@ git push -u origin main              # Pousse la branche main et définit le sui
     <main>
       <section id="apropos">
         <h2>À propos</h2>
-        <p>Développeur(se) web débutant(e) en formation DWWM.</p>
+        <p>Développeur(se) web en formation DWWM.</p>
       </section>
       <section id="projets">
         <h2>Projets</h2>
@@ -201,7 +201,7 @@ git push -u origin main             # 7) publier sur GitHub
 3. **Branch** : `main` / dossier `/root` → **Save**.
 4. Après le déploiement, une **URL publique** s’affiche (ex. `https://ton-user.github.io/ton-depot/`).
 
-✅ Vérification : ouvre l’URL → ta page `index.html` doit s’afficher correctement.
+> Vérification : ouvre l’URL → ta page `index.html` doit s’afficher correctement.
 
 ---
 
