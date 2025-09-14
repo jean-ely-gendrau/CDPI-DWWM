@@ -243,7 +243,7 @@ git push -u origin main             # 7) publier sur GitHub
 * Docs GitHub : [https://docs.github.com](https://docs.github.com)
 * OpenClassrooms – Git & GitHub : [https://openclassrooms.com/fr/courses/5641726-gerez-votre-code-avec-git-et-github](https://openclassrooms.com/fr/courses/5641726-gerez-votre-code-avec-git-et-github)
 * W3Schools – Git Tutorial : [https://www.w3schools.com/git/](https://www.w3schools.com/git/)
-* MDN – Outils & GitHub : [https://developer.mozilla.org/fr/docs/Learn/Tools\_and\_testing/GitHub](https://developer.mozilla.org/fr/docs/Learn/Tools_and_testing/GitHub)
+* MDN – Outils & GitHub : [https://developer.mozilla.org/fr/docs/Learn/Tools\_and\_testing/GitHub](https://developer.mozilla.org/fr/docs/Learn/Tools_and_testing/GitHub) test
 
 ---
 
