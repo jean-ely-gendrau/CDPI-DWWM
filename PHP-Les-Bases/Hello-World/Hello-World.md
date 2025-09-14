@@ -55,9 +55,9 @@ echo "Bonjour";
 
 Pour manipuler des données, PHP utilise différents **types primitifs** :
 
-* **String (chaîne de caractères)** : texte, exp `"DWWM - Toulon"`
-* **Integer (entier)** : nombre sans décimales, exp `42`
-* **Float (nombre à virgule)** : exp `3.14`
+* **String (chaîne de caractères)** : texte, ex. `"DWWM - Toulon"`
+* **Integer (entier)** : nombre sans décimales, ex. `42`
+* **Float (nombre à virgule)** : ex. `3.14`
 * **Boolean (booléen)** : vrai ou faux (`true` / `false`)
 
 Exemples :
@@ -83,6 +83,7 @@ echo "<br>Inscription ouverte ? $inscriptionOuverte";
 ?>
 ```
 
+💡 Tu remarques que le booléen s’affiche comme `1` pour `true` ou rien pour `false`.
 ➡️ Les variables permettent de stocker et afficher différents types de données.
 
 ---
