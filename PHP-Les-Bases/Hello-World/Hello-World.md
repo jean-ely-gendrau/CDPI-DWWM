@@ -230,6 +230,31 @@ Pause café en cours ?
 
 ---
 
+## 🎯 Exercices pratiques
+
+Voici une série d’exercices courts et variés pour t’entraîner avec `echo`, les variables et les types. Tu peux les tester dans de nouveaux fichiers PHP dans ton dossier `www`.
+
+1. Crée un script PHP qui affiche ton prénom à l’écran.
+2. Modifie le script pour afficher ton prénom **et** ton nom sur deux lignes différentes.
+3. Affiche la phrase : `Bienvenue dans le monde du PHP !` en utilisant `echo`.
+4. Affiche le résultat de l’addition de 7 et 5.
+5. Affiche le résultat de la soustraction de 12 et 4.
+6. Affiche le résultat de la division entière de 25 par 4.
+7. Affiche la phrase : `La somme de 10, 20 et 30 est : 60` en utilisant trois variables.
+8. Calcule et affiche la moyenne de trois notes (par exemple 14, 16, 18).
+9. Affiche le résultat de l’expression suivante : `(5 + 3) * 2`.
+10. Affiche la concaténation de deux chaînes de caractères, par exemple ton prénom et ton nom.
+11. Affiche la phrase : `Aujourd'hui, il fait beau.`
+12. Affiche le résultat de la division de 100 par 4.
+13. Affiche les phrases suivantes sur deux lignes :
+
+```html
+Formation DWWM Toulon
+Tu progresses en PHP !
+```
+
+---
+
 ## 📚 Ressources complémentaires
 
 * [Documentation officielle PHP](https://www.php.net/manual/fr/)
