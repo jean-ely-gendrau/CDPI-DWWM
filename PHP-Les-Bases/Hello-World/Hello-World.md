@@ -1,4 +1,4 @@
-# Support — PHP Hello Worl
+# Support — PHP Hello World
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Hello%20World-PHP&fontSize=40&fontAlignY=35&desc=Les%20bases&descAlignY=55&descAlign=50)
 
