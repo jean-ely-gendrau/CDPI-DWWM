@@ -1,6 +1,6 @@
-# Support — PHP Hello Worl
+# Support — PHP Hello World
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Hello%20Worl-PHP&fontSize=40&fontAlignY=35&desc=Les%20bases&descAlignY=55&descAlign=50)
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Hello%20World-PHP&fontSize=40&fontAlignY=35&desc=Les%20bases&descAlignY=55&descAlign=50)
 
 ## 🎓 Introduction
 
@@ -48,6 +48,43 @@ echo "Bonjour";
 * **Indente** correctement : le code doit être lisible.
 * Utilise les **guillemets doubles** pour tes chaînes de texte.
 * Nommer ses fichiers clairement (ex : hello.php).
+
+---
+
+### Les types primitifs en PHP
+
+Pour manipuler des données, PHP utilise différents **types primitifs** :
+
+* **String (chaîne de caractères)** : texte, ex. `"DWWM - Toulon"`
+* **Integer (entier)** : nombre sans décimales, ex. `42`
+* **Float (nombre à virgule)** : ex. `3.14`
+* **Boolean (booléen)** : vrai ou faux (`true` / `false`)
+
+Exemples :
+
+```php
+<?php
+// Texte
+$formation = "DWWM - Toulon";
+
+// Nombre entier
+$nbApprenants = 25;
+
+// Nombre décimal
+$tauxReussite = 95.5;
+
+// Booléen
+$inscriptionOuverte = true;
+
+echo $formation;
+echo "<br>Apprenants : $nbApprenants";
+echo "<br>Taux de réussite : $tauxReussite%";
+echo "<br>Inscription ouverte ? $inscriptionOuverte";
+?>
+```
+
+💡 Tu remarques que le booléen s’affiche comme `1` pour `true` ou rien pour `false`.
+➡️ Les variables permettent de stocker et afficher différents types de données.
 
 ---
 
@@ -143,6 +180,53 @@ Comment utiliser `echo` dans un vrai projet ? Par exemple :
 * Afficher le prénom de l’utilisateur après connexion.
 * Montrer le contenu d’un panier d’achat.
 * Présenter un message adapté selon l’heure de la journée.
+
+---
+
+## 🛠️ TP (bonus) – Variables et types
+
+### Objectif TP (bonus)
+
+Découvrir les **types primitifs** de PHP en créant des variables et en les affichant avec `echo`.
+
+### Étapes TP (bonus)
+
+1. Crée un fichier `types.php` dans le dossier `www`.
+2. Ajoute ce code :
+
+    ```php
+    <?php
+    // Chaîne de caractères
+    $formation = "Formation DWWM Toulon";
+
+    // Entier
+    $nbApprenants = 20;
+
+    // Décimal
+    $tauxPresence = 98.5;
+
+    // Booléen
+    $pauseCafe = false;
+
+    echo $formation;
+    echo "<br>Nombre d'apprenants : $nbApprenants";
+    echo "<br>Taux de présence : $tauxPresence%";
+    echo "<br>Pause café en cours ? $pauseCafe";
+    ?>
+    ```
+
+3. Ouvre `http://localhost/types.php` dans ton navigateur.
+
+✅ Résultat attendu :
+
+```html
+Formation DWWM Toulon
+Nombre d'apprenants : 20
+Taux de présence : 98.5%
+Pause café en cours ?
+```
+
+💡 Tu remarques que le booléen s’affiche comme `1` pour `true` ou rien pour `false`.
 
 ---
 
