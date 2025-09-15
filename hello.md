@@ -1,12 +1,8 @@
-# Support — PHP Hello World
+# 🎓 Introduction pédagogique
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Hello%20World-PHP&fontSize=40&fontAlignY=35&desc=Les%20bases&descAlignY=55&descAlign=50)
+## Objectif global du cours
 
-## 🎓 Introduction
-
-## Objectif global
-
-> Découvrir PHP avec Laragon 6 et apprendre à utiliser la commande **`echo`** pour afficher du texte dynamique. Tu vas créer tes premiers fichiers PHP et les exécuter dans ton navigateur.
+Découvrir PHP avec Laragon 6 et apprendre à utiliser la commande **`echo`** pour afficher du texte dynamique. Tu vas créer tes premiers fichiers PHP et les exécuter dans ton navigateur.
 
 ## Compétences visées (référentiel DWWM)
 
@@ -17,15 +13,15 @@
 
 ## Contexte métier
 
-> Dans un site web, **afficher du contenu** est essentiel : titres, messages de bienvenue, résultats de calculs ou données issues d’une base. PHP permet de produire ce contenu en fonction de l’utilisateur. Tu vas découvrir la toute première pierre de cette logique.
+Dans un site web, **afficher du contenu** est essentiel : titres, messages de bienvenue, résultats de calculs ou données issues d’une base. PHP permet de produire ce contenu en fonction de l’utilisateur. Tu vas découvrir la toute première pierre de cette logique.
 
 ---
 
-## Qu’est-ce que PHP ?
+# 📖 Cours théorique
 
-* PHP(Hypertext Preprocessor) est un **langage de programmation côté serveur**.
-* Il est exécuté sur le serveur et envoie du HTML au navigateur.
-* Créé en 1994 par Rasmus Lerdorf, il est encore largement utilisé (WordPress, Laravel, Drupal, Prestashop…).
+### Qu’est-ce que PHP ?
+
+* PHP est un **langage de programmation côté serveur**.
 * Il permet de créer des pages **dynamiques** qui s’adaptent selon les besoins.
 * Avec **Laragon**, tu disposes d’un serveur local simple et rapide pour exécuter ton code.
 
@@ -47,13 +43,10 @@ echo "Bonjour";
 * **Toujours commenter ton code** : explique ce que tu fais.
 * **Indente** correctement : le code doit être lisible.
 * Utilise les **guillemets doubles** pour tes chaînes de texte.
-* Nommer ses fichiers clairement (ex : hello.php).
-
----
 
 ### Les types primitifs en PHP
 
-> Pour manipuler des données, PHP utilise différents **types primitifs** :
+Pour manipuler des données, PHP utilise différents **types primitifs** :
 
 * **String (chaîne de caractères)** : texte, ex. `"DWWM - Toulon"`
 * **Integer (entier)** : nombre sans décimales, ex. `42`
@@ -83,64 +76,63 @@ echo "<br>Inscription ouverte ? $inscriptionOuverte";
 ?>
 ```
 
-💡 Tu remarques que le booléen s’affiche comme `1` pour `true` ou rien pour `false`.
 ➡️ Les variables permettent de stocker et afficher différents types de données.
 
 ---
 
-## 💻 Démonstration pratique
+# 💻 Démonstration pratique (live coding)
 
 1. Ouvre **Laragon 6** et démarre Apache.
 2. Va dans le dossier `www` de Laragon.
 3. Crée un fichier nommé `hello.php`.
 4. Écris ce code :
 
-    ```php
-    <?php
-    // Premier affichage avec echo
-    echo "Bienvenue dans la formation DWWM - Toulon";
-    ?>
-    ```
+```php
+<?php
+// Premier affichage avec echo
+echo "Bienvenue dans la formation DWWM - Toulon";
+?>
+```
 
-    👉 Dans ton navigateur, saisis :
+👉 Dans ton navigateur, saisis :
 
-    ```html
-    http://localhost/hello.php
-    ```
+```
+http://localhost/hello.php
+```
 
-    ✅ Résultat attendu :
+✅ Résultat attendu :
 
-    ```html
-    Bienvenue dans la formation DWWM - Toulon
-    ```
+```
+Bienvenue dans la formation DWWM - Toulon
+```
 
 ---
 
-## 🛠️ TP PHP **echo**
+# 🛠️ TP guidé (atelier pratique encadré)
 
 ## Objectif
 
-> Pratiquer l’instruction `echo` en affichant plusieurs lignes de texte.
+Pratiquer l’instruction `echo` en affichant plusieurs lignes de texte.
 
 ## Étapes
 
 1. Crée un fichier `dwwm.php` dans le dossier `www`.
 2. Ajoute ce code :
 
-    ```php
-    <?php
-    // Première page PHP autour de la formation
-    echo "DWWM - TOULON";
-    echo "<br>Première séance de PHP";
-    echo "<br>Tu apprends à utiliser echo";
-    ?>
-    ```
+```php
+<?php
+// Première page PHP autour de la formation
+echo "DWWM - TOULON";
+echo "<br>Première séance de PHP";
+echo "<br>Tu apprends à utiliser echo";
+?>
+```
 
 3. Ouvre `http://localhost/dwwm.php` dans ton navigateur.
 
 ✅ Résultat attendu :
 
-```php
+```
 DWWM - TOULON
 Première séance de PHP
 Tu apprends à utiliser echo
@@ -148,78 +140,43 @@ Tu apprends à utiliser echo
 
 ---
 
-## 🚀 TP PHP *autonome*
+# 🛠️ TP guidé (atelier pratique encadré) – Variables et types
 
-## Consigne
+## Objectif
 
-> Crée une page PHP appelée `presentation.php` qui affiche :
+Découvrir les **types primitifs** de PHP en créant des variables et en les affichant avec `echo`.
 
-* Ton prénom.
-* La phrase : *Je suis en formation DWWM à Toulon*.
-* Une phrase libre que tu inventes.
-
-## Attendus
-
-* Chaque phrase apparaît sur une ligne distincte (utilise `<br>` si besoin).
-* Le code est bien indenté et commenté.
-
----
-
-## ✅ Évaluation et auto-évaluation
-
-### Vérifie
-
-* As-tu lancé Laragon et créé un fichier PHP ?
-* Le fichier affiche-t-il bien toutes les lignes demandées ?
-* Ton code est-il clair, indenté et commenté ?
-
-### Réflexion
-
-> Comment utiliser `echo` dans un vrai projet ? Par exemple :
-
-* Afficher le prénom de l’utilisateur après connexion.
-* Montrer le contenu d’un panier d’achat.
-* Présenter un message adapté selon l’heure de la journée.
-
----
-
-## 🛠️ TP (bonus) – Variables et types
-
-### Objectif TP (bonus)
-
-> Découvrir les **types primitifs** de PHP en créant des variables et en les affichant avec `echo`.
-
-### Étapes TP (bonus)
+## Étapes
 
 1. Crée un fichier `types.php` dans le dossier `www`.
 2. Ajoute ce code :
 
-    ```php
-    <?php
-    // Chaîne de caractères
-    $formation = "Formation DWWM Toulon";
+```php
+<?php
+// Chaîne de caractères
+$formation = "Formation DWWM Toulon";
 
-    // Entier
-    $nbApprenants = 20;
+// Entier
+$nbApprenants = 20;
 
-    // Décimal
-    $tauxPresence = 98.5;
+// Décimal
+$tauxPresence = 98.5;
 
-    // Booléen
-    $pauseCafe = false;
+// Booléen
+$pauseCafe = false;
 
-    echo $formation;
-    echo "<br>Nombre d'apprenants : $nbApprenants";
-    echo "<br>Taux de présence : $tauxPresence%";
-    echo "<br>Pause café en cours ? $pauseCafe";
-    ?>
-    ```
+echo $formation;
+echo "<br>Nombre d'apprenants : $nbApprenants";
+echo "<br>Taux de présence : $tauxPresence%";
+echo "<br>Pause café en cours ? $pauseCafe";
+?>
+```
 
 3. Ouvre `http://localhost/types.php` dans ton navigateur.
 
 ✅ Résultat attendu :
 
-```html
+```
 Formation DWWM Toulon
 Nombre d'apprenants : 20
 Taux de présence : 98.5%
@@ -230,9 +187,9 @@ Pause café en cours ?
 
 ---
 
-## 🎯 Exercices pratiques
+# 🎯 Exercices pratiques (autour de echo et des types primitifs)
 
- > Voici une série d’exercices courts et variés pour t’entraîner avec echo, les variables et les types. Tu peux les tester dans de   nouveaux fichiers PHP dans ton dossier `www`.
+Voici une série d’exercices centrés uniquement sur **l’instruction echo** et les **types primitifs** de PHP. Crée un fichier par exercice ou regroupe-les dans un seul fichier en commentant/décommentant.
 
 1. **Texte simple**
    Affiche avec `echo` : `DWWM – TOULON`
@@ -289,18 +246,48 @@ Pause café en cours ?
 15. **Fiche apprenant**
     Crée plusieurs variables (string, int, float, bool) et affiche une petite fiche : prénom, âge, moyenne, inscription.
 
-```html
-Formation DWWM Toulon
-Tu progresses en PHP !
-```
+---
+
+# 🚀 TP autonome (mise en pratique libre)
+
+(mise en pratique libre)
+
+## Consigne
+
+Crée une page PHP appelée `presentation.php` qui affiche :
+
+* Ton prénom.
+* La phrase : *Je suis en formation DWWM à Toulon*.
+* Une phrase libre que tu inventes.
+
+## Attendus
+
+* Chaque phrase apparaît sur une ligne distincte (utilise `<br>` si besoin).
+* Le code est bien indenté et commenté.
 
 ---
 
-## 📚 Ressources complémentaires
+# ✅ Évaluation et auto-évaluation
+
+### Vérifie :
+
+* As-tu lancé Laragon et créé un fichier PHP ?
+* Le fichier affiche-t-il bien toutes les lignes demandées ?
+* Ton code est-il clair, indenté et commenté ?
+
+### Réflexion
+
+Comment utiliser `echo` dans un vrai projet ? Par exemple :
+
+* Afficher le prénom de l’utilisateur après connexion.
+* Montrer le contenu d’un panier d’achat.
+* Présenter un message adapté selon l’heure de la journée.
+
+---
+
+# 📚 Ressources complémentaires
 
 * [Documentation officielle PHP](https://www.php.net/manual/fr/)
 * [Site officiel Laragon](https://laragon.org/)
 * [W3Schools – PHP Echo](https://www.w3schools.com/php/php_echo_print.asp)
 * [OpenClassrooms – Découvre PHP](https://openclassrooms.com/fr/courses/6173501-decouvrez-le-langage-php)
-
-![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&text=%F0%9F%8C%9F%20Mettez%20une%20%2A%20si%20vous%20avez%20aim%C3%A9%20ce%20TP%20!%20%F0%9F%9A%80&fontSize=22)
