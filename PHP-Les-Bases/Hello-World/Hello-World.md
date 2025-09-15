@@ -289,6 +289,11 @@ Pause café en cours ?
 15. **Fiche apprenant**
     Crée plusieurs variables (string, int, float, bool) et affiche une petite fiche : prénom, âge, moyenne, inscription.
 
+```html
+Formation DWWM Toulon
+Tu progresses en PHP !
+```
+
 ---
 
 ## 📚 Ressources complémentaires
