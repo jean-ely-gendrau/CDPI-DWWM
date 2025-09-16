@@ -98,7 +98,7 @@ for ($i = 1; $i <= 10; $i++) {
 
 ---
 
-## 4. 🛠️ TP PHP (les boucles)
+## 4. 🛠️ TP PHP - les boucles
 
 ### TP 1 – Le compteur de séances
 
