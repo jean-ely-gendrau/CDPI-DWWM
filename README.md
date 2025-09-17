@@ -5,6 +5,8 @@ L’approche est **pédagogique** avec des explications simples et des exercices
 
 ---
 
+<div id="sommaire"></div>
+
 ## 🗂️ Arborescence
 
 ### 📂 Base GitHub
