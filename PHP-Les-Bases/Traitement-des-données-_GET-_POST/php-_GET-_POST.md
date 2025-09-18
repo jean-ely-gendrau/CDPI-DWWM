@@ -193,9 +193,9 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
 
 ### Exercice 1 – Afficher `$_GET`
 
-* **Fichier** : `exo1_get.php`
+* **Fichier** : `exo1-get.php`
 * **Consigne** : Crée une page qui affiche le contenu complet de `$_GET` avec `print_r()`.
-* **Résultat attendu** : En accédant à `exo1_get.php?nom=Paul&age=30`, la page doit afficher un tableau avec les valeurs.
+* **Résultat attendu** : En accédant à `exo1-get.php?nom=Paul&age=30`, la page doit afficher un tableau avec les valeurs.
 
 ### Exercice 2 – Formulaire prénom
 
@@ -205,49 +205,49 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
 
 ### Exercice 3 – Carré d’un nombre
 
-* **Fichier** : `exo3_carre.php`
+* **Fichier** : `exo3-carre.php`
 * **Consigne** : Formulaire avec champ numérique. Affiche le carré du nombre.
 * **Résultat attendu** : Entrée `5` → affiche `Le carré de 5 est 25`.
 
 ### Exercice 4 – Plus grand nombre
 
-* **Fichier** : `exo4_max.php`
+* **Fichier** : `exo4-max.php`
 * **Consigne** : Formulaire demandant deux nombres. Affiche le plus grand.
 * **Résultat attendu** : 8 et 3 → affiche `Le plus grand est 8`.
 
 ### Exercice 5 – Case à cocher
 
-* **Fichier** : `exo5_checkbox.php`
+* **Fichier** : `exo5-checkbox.php`
 * **Consigne** : Formulaire avec case “J’accepte les conditions”. Affiche message selon choix.
 * **Résultat attendu** : ✅ Conditions acceptées ou ❌ Tu dois accepter.
 
 ### Exercice 6 – Choisir une couleur
 
-* **Fichier** : `exo6_couleur.php`
+* **Fichier** : `exo6-couleur.php`
 * **Consigne** : Formulaire demandant une couleur (input type="color"). Affiche un texte avec cette couleur.
 * **Résultat attendu** : Choisir rouge → texte en rouge.
 
 ### Exercice 7 – Année bissextile
 
-* **Fichier** : `exo7_bissextile.php`
+* **Fichier** : `exo7-bissextile.php`
 * **Consigne** : Formulaire demandant une année. Vérifie si elle est bissextile.
 * **Résultat attendu** : 2024 → bissextile ; 2023 → pas bissextile.
 
 ### Exercice 8 – Email en minuscules
 
-* **Fichier** : `exo8_email.php`
+* **Fichier** : `exo8-email.php`
 * **Consigne** : Formulaire demandant un email. Affiche-le en minuscules.
 * **Résultat attendu** : `Paul.Dupond@EXEMPLE.Com` → `paul.dupond@exemple.com`.
 
 ### Exercice 9 – Majeur ou mineur
 
-* **Fichier** : `exo9_age.php`
+* **Fichier** : `exo9-age.php`
 * **Consigne** : Formulaire demandant un âge. Affiche majeur ou mineur.
 * **Résultat attendu** : 16 → mineur ; 21 → majeur.
 
 ### Exercice 10 – Longueur d’un mot
 
-* **Fichier** : `exo10_longueur.php`
+* **Fichier** : `exo10-longueur.php`
 * **Consigne** : Formulaire demandant un mot. Affiche son nombre de lettres.
 * **Résultat attendu** : `bonjour` → contient 7 lettres.
 
