@@ -74,8 +74,8 @@ try {
     // - host=localhost : ton serveur est en local
     // - dbname=jour09 : c’est le nom de ta base de données
     // - "root" : ton identifiant (à éviter en prod)
-    // - $password : ta variable qui contient le mot de passe
-    $pdo = new PDO("mysql:host=localhost;dbname=jour09", "root", $password);
+    // - "" : contient le mot de passe
+    $pdo = new PDO("mysql:host=localhost;dbname=jour09", "root", "");
 
     // Tu configures PDO pour qu’il envoie une exception si une erreur SQL survient
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
