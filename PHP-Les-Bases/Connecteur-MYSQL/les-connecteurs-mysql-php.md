@@ -73,7 +73,7 @@ try {
     // Ici tu crées une connexion PDO à la base MySQL "jour09"
     // - host=localhost : ton serveur est en local
     // - dbname=jour09 : c’est le nom de ta base de données
-    // - "root" : ton identifiant (à éviter en prod)
+    // - "root" : ton identifiant (à éviter en production)
     // - "" : contient le mot de passe
     $pdo = new PDO("mysql:host=localhost;dbname=jour09", "root", "");
 
